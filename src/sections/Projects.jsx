@@ -8,7 +8,6 @@ const projects =  [
         description: "Built a real-time chat application with user authentication, instant messaging, Used MERN stack technologies with Socket.io for live communication and Zustand for efficient state management.",
         image: "/Project-images/BuzzHub-image.png",
         tags: ["React", "NodeJS", "ExpressJS", "MongoDB", "Zustand", "JWT"],
-        link: "#",
         github: "https://github.com/Logesh-26/Buzzhub",
     },
     {
@@ -16,7 +15,6 @@ const projects =  [
         description: "Developed a full-stack CRUD application using React and Node.js with secure authentication and a responsive UI. The project follows a client–server architecture to efficiently manage and persist user data.",
         image: "/Project-images/crud-image-1.png",
         tags: ["React", "NodeJS", "ExpressJS", "MongoDB", "REST API"],
-        link: "#",
         github: "https://github.com/Logesh-26/crud-app",
     },
     {
@@ -130,9 +128,20 @@ export const Projects = () => {
                                     <div className="absolute inset-0 bg-gradient-to-t from-card via-card/50 to-transparent opacity-60" />
                                     {/* Overlay Links */ }
                                     <div className="absolute inset-0 flex items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                                        <a href={project.link} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
+                                        {/* <a href={project.link} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
                                             <ArrowUpRight className="w-5 h-5"/>
-                                        </a>
+                                        </a> */}
+                                        {/* Show Live Link only if it exists */}
+                                        {project.link && (
+                                            <a
+                                              href={project.link}
+                                              target="_blank"
+                                              rel="noopener noreferrer"
+                                              className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
+                                            >
+                                                <ArrowUpRight className="w-5 h-5" />
+                                            </a>
+                                        )}
                                         <a href={project.github} className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all">
                                             <Github className="w-5 h-5"/>
                                         </a>
