@@ -2,7 +2,14 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { useState } from "react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
-const projects =  [
+const projects = [
+    {
+        title: "Quiz Master Quiz-Application",
+        description: "Developed a full-stack quiz platform with React, Node.js, and MongoDB, featuring admin dashboard and user interface. Implemented secure authentication, timed quizzes, and result tracking with role-based access control.",
+        image: "/Project-images/quizmaster-image.png",
+        tags: ["React", "NodeJS", "ExpressJS", "MongoDB", "Clerk-Auth", "Axios", "ngrok"],
+        github: "https://github.com/Logesh-26/QuizMaster-App"
+    },
     {
         title: "BuzzHub Real-time Chat Application",
         description: "Built a real-time chat application with user authentication, instant messaging, Used MERN stack technologies with Socket.io for live communication and Zustand for efficient state management.",
