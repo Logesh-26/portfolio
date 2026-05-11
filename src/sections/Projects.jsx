@@ -149,7 +149,6 @@ export const Projects = () => {
                                               rel="noopener noreferrer"
                                               className="p-3 rounded-full glass hover:bg-primary hover:text-primary-foreground transition-all"
                                             >
-                                                <div>Users</div>
                                                 <ArrowUpRight className="w-5 h-5" />
                                             </a>
                                         ) }
