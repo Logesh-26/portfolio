@@ -51,17 +51,6 @@ npm run dev
 npm run build
 ```
 
-### 4. Preview production build locally
-
-```bash
-npm run preview
-```
-
-### 5. Lint the project
-
-```bash
-npm run lint
-```
 
 ## 📧 Contact Form Setup
 
