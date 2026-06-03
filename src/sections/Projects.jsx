@@ -24,6 +24,7 @@ const projects = [
         title: "Bookify",
         description: "Bookify is a Node.js + Express + MongoDB application for managing a collection of books. It uses EJS for server-side rendering and supports viewing, adding, updating, and deleting books.",
         image: "/Project-images/Bookify-image.png",
+        tags: ["NodeJS", "ExpressJS", "EJS", "MongoDB", "CRUD"],
         github: "https://github.com/Logesh-26/bookify",
     },
     {
