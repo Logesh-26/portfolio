@@ -4,6 +4,14 @@ import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const projects = [
     {
+        title: "Developer-Blogs",
+        description: "A full-stack blogging platform built with React, Node.js, and MongoDB. It features user authentication, CRUD operations for posts, and a responsive design.",
+        image: "/Project-images/DeveloperBlog-image.png",
+        tags: ["NodeJS", "ExpressJS", "EJS", "MongoDB", "JWT", "Bootstrap", "Server-Side-Rendering"],
+        github: "https://github.com/Logesh-26/Dev-Blog",
+        link: "https://dev-blog-awmh.onrender.com/",
+    },
+    {
         title: "Quiz Master Quiz-Application",
         description: "Developed a full-stack quiz platform with React, Node.js, and MongoDB, featuring admin dashboard and user interface. Implemented secure authentication, timed quizzes, and result tracking with role-based access control.",
         image: "/Project-images/quizmaster-image.png",
@@ -11,6 +19,12 @@ const projects = [
         github: "https://github.com/Logesh-26/QuizMaster-App",
         link: "https://quizmaster-app-frontend.onrender.com",
         adminlink:"https://quizmaster-app-admin.onrender.com/"
+    },
+    {
+        title: "Bookify",
+        description: "Bookify is a Node.js + Express + MongoDB application for managing a collection of books. It uses EJS for server-side rendering and supports viewing, adding, updating, and deleting books.",
+        image: "/Project-images/Bookify-image.png",
+        github: "https://github.com/Logesh-26/bookify",
     },
     {
         title: "BuzzHub Real-time Chat Application",
