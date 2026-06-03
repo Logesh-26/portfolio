@@ -9,6 +9,13 @@ const certifications = [
         credentialUrl: "https://drive.google.com/file/d/12UP25zbrEUxpwaCsvo-2sdyGf8Zd7P0H/view?usp=drive_link",
     },
     {
+        title: "Node.js",
+        issuer: "HCL GUVI",
+        date: "June 2026",
+        credentialId: "7278UY5760V5CB814y",
+        credentialUrl: "https://www.guvi.in/share-certificate/7278UY5760V5CB814y",
+    },
+    {
         title: "HTML & CSS",
         issuer: "HCL GUVI",
         date: "May 2026",
