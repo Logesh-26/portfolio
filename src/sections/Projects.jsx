@@ -4,14 +4,6 @@ import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 
 const projects = [
     {
-        title: "Developer-Blogs",
-        description: "A full-stack blogging platform built with React, Node.js, and MongoDB. It features user authentication, CRUD operations for posts, and a responsive design.",
-        image: "/Project-images/DeveloperBlog-image.png",
-        tags: ["NodeJS", "ExpressJS", "EJS", "MongoDB", "JWT", "Bootstrap", "Server-Side-Rendering"],
-        github: "https://github.com/Logesh-26/Dev-Blog",
-        link: "https://dev-blog-awmh.onrender.com/",
-    },
-    {
         title: "Quiz Master Quiz-Application",
         description: "Developed a full-stack quiz platform with React, Node.js, and MongoDB, featuring admin dashboard and user interface. Implemented secure authentication, timed quizzes, and result tracking with role-based access control.",
         image: "/Project-images/quizmaster-image.png",
@@ -21,13 +13,6 @@ const projects = [
         adminlink:"https://quizmaster-app-admin.onrender.com/"
     },
     {
-        title: "Bookify",
-        description: "Bookify is a Node.js + Express + MongoDB application for managing a collection of books. It uses EJS for server-side rendering and supports viewing, adding, updating, and deleting books.",
-        image: "/Project-images/Bookify-image.png",
-        tags: ["NodeJS", "ExpressJS", "EJS", "MongoDB", "CRUD"],
-        github: "https://github.com/Logesh-26/bookify",
-    },
-    {
         title: "BuzzHub Real-time Chat Application",
         description: "Built a real-time chat application with user authentication, instant messaging, Used MERN stack technologies with Socket.io for live communication and Zustand for efficient state management.",
         image: "/Project-images/BuzzHub-image.png",
@@ -35,6 +20,22 @@ const projects = [
         link: "https://buzzhub-frontend-h5kz.onrender.com/",
         github: "https://github.com/Logesh-26/Buzzhub",
     },
+    {
+        title: "Developer-Blogs",
+        description: "A full-stack blogging platform built with React, Node.js, and MongoDB. It features user authentication, CRUD operations for posts, and a responsive design.",
+        image: "/Project-images/DeveloperBlog-image.png",
+        tags: ["NodeJS", "ExpressJS", "EJS", "MongoDB", "JWT", "Bootstrap", "Server-Side-Rendering"],
+        github: "https://github.com/Logesh-26/Dev-Blog",
+        link: "https://dev-blog-awmh.onrender.com/",
+    },
+    {
+        title: "Bookify",
+        description: "Bookify is a Node.js + Express + MongoDB application for managing a collection of books. It uses EJS for server-side rendering and supports viewing, adding, updating, and deleting books.",
+        image: "/Project-images/Bookify-image.png",
+        tags: ["NodeJS", "ExpressJS", "EJS", "MongoDB", "CRUD"],
+        github: "https://github.com/Logesh-26/bookify",
+    },
+    
     {
         title: "CRUD Application",
         description: "Developed a full-stack CRUD application using React and Node.js with secure authentication and a responsive UI. The project follows a client–server architecture to efficiently manage and persist user data.",
@@ -57,6 +58,15 @@ const projects = [
         tags: ["React", "TailwindCSS", "JavaScript", "ReactContextAPI"],
         link: "https://encore-music-app.vercel.app/",
         github: "https://github.com/Logesh-26/EncoreMusicApp",
+    },
+    {
+        title: "Task Manager Using JQuery",
+        description: "Developed a dynamic Task Manager application using jQuery that allows users to add, edit, complete, and delete tasks in real time.",
+        image: "/Project-images/taskManager-image.png",
+        tags:["HTML5", "CSS3", "JavaScript", "jQuery", "DOM Manipulation", "Event Handling"],
+        link: "https://task-manager-seven-beige.vercel.app/",
+        github: "https://github.com/Logesh-26/Task-Manager",
+        
     },
     {
         title: "ToDo-List App",
