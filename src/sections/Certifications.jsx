@@ -29,6 +29,13 @@ const certifications = [
         credentialId: "81e7H891Alq63m2475",
         credentialUrl: "https://www.guvi.in/share-certificate/81e7H891Alq63m2475",
     },
+    {
+        title: "Cypress",
+        issuer: "HCL GUVI",
+        date: "June 2026",
+        credentialId: "WJ5K6813z0f7R1c1t5",
+        credentialUrl: "https://www.guvi.in/share-certificate/WJ5K6813z0f7R1c1t5",
+    },
 ];
 
 export const Certifications = () => {
