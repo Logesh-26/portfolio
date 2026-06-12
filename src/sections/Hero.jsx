@@ -28,7 +28,7 @@ export const Hero = () => {
         console.log("Download CV button clicked");
         try {
             const link = document.createElement("a");
-            link.href = "/resume.pdf";
+            link.href = "/LOGESH_RESUME.pdf";
             link.download = "";
             link.style.display = "none";
             console.log("Link created with href:", link.href);
